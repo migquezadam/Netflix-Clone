@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SearchViewController.swift
 //  Netflix Clone
 //
 //  Created by Miguel Quezada on 28-07-22.
@@ -8,15 +8,15 @@
 import SwiftUI
 import UIKit
 
-final class MainTabBarViewController: UITabBarController {
-    
+final class SearchViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
-    }
+        view.backgroundColor = .systemPink
     
+    }
 }
-struct MainTabBarViewControllerPreview: UIViewControllerRepresentable {
+struct SearchViewControllerPreview: UIViewControllerRepresentable {
     let viewControllerBuilder: () -> UIViewController
 
     init(_ viewControllerBuilder: @escaping () -> UIViewController) {
@@ -33,10 +33,10 @@ struct MainTabBarViewControllerPreview: UIViewControllerRepresentable {
 }
 
 
-struct MainTabBarViewController_Previews: PreviewProvider {
+struct SearchViewController_Previews: PreviewProvider {
     static var previews: some View {
         MainTabBarViewControllerPreview {
-            MainTabBarViewController()
+            SearchViewController()
         }
     }
 }

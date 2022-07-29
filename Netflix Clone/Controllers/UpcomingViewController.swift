@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UpcomingViewController.swift
 //  Netflix Clone
 //
 //  Created by Miguel Quezada on 28-07-22.
@@ -8,15 +8,15 @@
 import SwiftUI
 import UIKit
 
-final class MainTabBarViewController: UITabBarController {
+final class UpcomingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = .systemGreen
     }
     
 }
-struct MainTabBarViewControllerPreview: UIViewControllerRepresentable {
+struct UpcomingViewControllerPreview: UIViewControllerRepresentable {
     let viewControllerBuilder: () -> UIViewController
 
     init(_ viewControllerBuilder: @escaping () -> UIViewController) {
@@ -33,10 +33,10 @@ struct MainTabBarViewControllerPreview: UIViewControllerRepresentable {
 }
 
 
-struct MainTabBarViewController_Previews: PreviewProvider {
+struct UpcomingViewController_Previews: PreviewProvider {
     static var previews: some View {
         MainTabBarViewControllerPreview {
-            MainTabBarViewController()
+            UpcomingViewController()
         }
     }
 }

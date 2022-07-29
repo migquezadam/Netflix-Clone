@@ -12,6 +12,10 @@
 		4B946793289357E900B1D8F6 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B946792289357E900B1D8F6 /* MainTabBarViewController.swift */; };
 		4B946798289357EC00B1D8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B946797289357EC00B1D8F6 /* Assets.xcassets */; };
 		4B94679B289357EC00B1D8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B946799289357EC00B1D8F6 /* LaunchScreen.storyboard */; };
+		4B9467A628935CE300B1D8F6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9467A528935CE300B1D8F6 /* HomeViewController.swift */; };
+		4B9467A828935D3900B1D8F6 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9467A728935D3900B1D8F6 /* UpcomingViewController.swift */; };
+		4B9467AA28935D5E00B1D8F6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9467A928935D5E00B1D8F6 /* SearchViewController.swift */; };
+		4B9467AC28935D9E00B1D8F6 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9467AB28935D9E00B1D8F6 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4B946797289357EC00B1D8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B94679A289357EC00B1D8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B94679C289357EC00B1D8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9467A528935CE300B1D8F6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B9467A728935D3900B1D8F6 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		4B9467A928935D5E00B1D8F6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4B9467AB28935D9E00B1D8F6 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		4B94678D289357E900B1D8F6 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				4B9467A228935C9400B1D8F6 /* Controllers */,
 				4B94678E289357E900B1D8F6 /* AppDelegate.swift */,
 				4B946790289357E900B1D8F6 /* SceneDelegate.swift */,
 				4B946792289357E900B1D8F6 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				4B94679C289357EC00B1D8F6 /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		4B9467A228935C9400B1D8F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B9467A528935CE300B1D8F6 /* HomeViewController.swift */,
+				4B9467A728935D3900B1D8F6 /* UpcomingViewController.swift */,
+				4B9467AB28935D9E00B1D8F6 /* DownloadsViewController.swift */,
+				4B9467A928935D5E00B1D8F6 /* SearchViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9467AA28935D5E00B1D8F6 /* SearchViewController.swift in Sources */,
 				4B946793289357E900B1D8F6 /* MainTabBarViewController.swift in Sources */,
+				4B9467AC28935D9E00B1D8F6 /* DownloadsViewController.swift in Sources */,
 				4B94678F289357E900B1D8F6 /* AppDelegate.swift in Sources */,
 				4B946791289357E900B1D8F6 /* SceneDelegate.swift in Sources */,
+				4B9467A828935D3900B1D8F6 /* UpcomingViewController.swift in Sources */,
+				4B9467A628935CE300B1D8F6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
